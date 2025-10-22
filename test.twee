@@ -1,0 +1,55 @@
+:: StoryTitle
+test
+
+
+:: StoryData
+{
+  "ifid": "19796FAC-BFFA-4360-ADE1-74D65B6CEDD3",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Untitled Passage",
+  "zoom": 1
+}
+
+
+:: Untitled Passage {"position":"900,375","size":"100,100"}
+
+<img src="https://github.com/kamila2030/Twinee/blob/main/kandinsky-download-1761045311484%20(1).png?raw=true">
+<div class="text-box">
+Студентка совмещает учебу с работой, стремясь обрести опыт и финансовую независимость. Ее рабочий день начинается рано утром, когда она отправляется в офис крупной компании, где занимается обработкой документов, ведет отчетность и помогает коллегам решать повседневные задачи. Она активно участвует в проектах, стараясь проявить инициативу и показать себя с лучшей стороны. После рабочего дня девушка спешит на занятия, продолжая совершенствовать знания и умения, необходимые для успешной карьеры. Несмотря на усталость, ей удается находить радость в мелочах и гордиться своими достижениями.
+[[Дальше]]
+</div>
+
+
+:: Дальше {"position":"900,500","size":"100,100"}
+<div class="text-box">
+Студентка совмещает учебу с работой, стремясь обрести опыт и финансовую независимость. 
+</div>
+
+
+:: StoryStylesheet [stylesheet]
+/* Стиль для основного контента */
+
+
+/* Подложка для текста */
+
+
+.text-box {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    max-width: 800px;
+    z-index: 100;
+}
+
+tw-story {
+    background-image: url('https://github.com/Z1dipex/Twine/blob/main/image.png?raw=true');
+    background-size: cover
+}
